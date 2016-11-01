@@ -1,0 +1,30 @@
+{
+  "name": "sqlite-to-nedb",
+  "version": "0.0.1",
+  "description": "Convert a SQLite database to neDB format",
+  "main": "app.js",
+  "dependencies": {
+    "asyncawait": "^1.0.6",
+    "bluebird": "^3.4.6",
+    "nedb": "^1.8.0",
+    "sqlite3": "^3.1.8"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "NeDb",
+    "Sqlite"
+  ],
+  "author": "Ban Mido",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Mido22/sqlite-to-nedb/issues"
+  },
+  "homepage": "https://github.com/Mido22/sqlite-to-nedb#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mido22/sqlite-to-nedb.git"
+  }
+}

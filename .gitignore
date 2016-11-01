@@ -2,7 +2,8 @@
 logs
 *.log
 npm-debug.log*
-
+.gitignore
+no.js
 # Runtime data
 pids
 *.pid
