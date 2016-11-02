@@ -1,6 +1,6 @@
 {
   "name": "sqlite-to-nedb",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Convert a SQLite database to neDB format",
   "main": "app.js",
   "dependencies": {
@@ -10,7 +10,7 @@
     "sqlite3": "^3.1.8"
   },
   "devDependencies": {},
-  "scripts": {  },
+  "scripts": {},
   "keywords": [
     "NeDb",
     "Sqlite"
