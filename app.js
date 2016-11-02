@@ -28,7 +28,7 @@ function convert(sqlDbFile, nedbFolder, ext) {
 
 function trimJSON(data) {
   data.forEach(item => Object.keys(item)
-                             .filter(key => !item[key])
+                             .filter(key => !item[key] && item[key]!==0)
                              .map(key => delete item[key]));
 }
 
